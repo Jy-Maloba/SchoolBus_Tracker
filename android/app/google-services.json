@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "343521671851",
+    "project_id": "schoolbusgps-195f3",
+    "storage_bucket": "schoolbusgps-195f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343521671851:android:31fa010c619e3a4b0495ee",
+        "android_client_info": {
+          "package_name": "com.example.school_bus_gps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343521671851-28ggviibl480c2uo97f6vvrcv0gu8ujh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa4DnfIgMie2CmPEAFAxH16eUklIDVZfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343521671851-28ggviibl480c2uo97f6vvrcv0gu8ujh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "343521671851-d2hlfn0qa1macfvngl0ip3ng4kgutv9f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.schoolBusGps"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343521671851:android:11fcc9dbc647dad70495ee",
+        "android_client_info": {
+          "package_name": "com.example.schoolbus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343521671851-28ggviibl480c2uo97f6vvrcv0gu8ujh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa4DnfIgMie2CmPEAFAxH16eUklIDVZfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343521671851-28ggviibl480c2uo97f6vvrcv0gu8ujh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "343521671851-d2hlfn0qa1macfvngl0ip3ng4kgutv9f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.schoolBusGps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
