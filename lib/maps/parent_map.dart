@@ -27,7 +27,7 @@ class _ParentMapsPageState extends State<ParentMapsPage> {
 
   void _onSearchPlace(String place) async {
     final places.GoogleMapsPlaces _places =
-    places.GoogleMapsPlaces(apiKey: 'AIzaSyB5fMSyxV9eF6OpB5k2xILMAJyG-Desags');
+    places.GoogleMapsPlaces(apiKey: 'API_KEY');
 
     places.PlacesSearchResponse response = await _places.searchByText(place);
     if (response.isOkay) {
