@@ -47,6 +47,10 @@ The School Bus Tracking App is a modern and efficient solution designed to track
 
 <img src="https://github.com/Jy-Maloba/SchoolBus_Tracker/assets/77850669/9fc9934c-bdf9-462a-b7a5-12d0fe2c27e8" width="300"/>
 
+**Driver Map**
+
+<img src="https://github.com/Jy-Maloba/SchoolBus_Tracker/assets/77850669/e54ffd93-c79d-4dde-a1ba-ff473584b543" width="300"/>
+
 **Parent Log in**
 
 <img src="https://github.com/Jy-Maloba/SchoolBus_Tracker/assets/77850669/eb2b24f1-cd54-4583-8443-71b8719ed641" width="300"/>
@@ -59,3 +63,6 @@ The School Bus Tracking App is a modern and efficient solution designed to track
 
 <img src="https://github.com/Jy-Maloba/SchoolBus_Tracker/assets/77850669/119e981f-a7ea-449f-9459-c2eb7213bf5f" width="300"/>
 
+**Parent Map**
+
+<img src="https://github.com/Jy-Maloba/SchoolBus_Tracker/assets/77850669/47f6a45c-46b0-406e-ada2-0a91098ef1b5" width="300"/>
