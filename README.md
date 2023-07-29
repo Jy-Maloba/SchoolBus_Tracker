@@ -6,6 +6,7 @@ The School Bus Tracking App is a modern and efficient solution designed to track
 ##Features Included
 - Secure User Authentication: The system utilizes robust authentication mechanisms to ensure the privacy and security of user data.
 - Adding and deleting Users from the Database.
+- Parents can easily set their pickup location by dragging and dropping a marker on the map, providing personalized convenience for bus drivers to locate them accurately.
 
 ## Features yet to be Included
 - Real-time GPS Tracking: Parents can track the location of their child's school bus in real-time through the mobile application.
