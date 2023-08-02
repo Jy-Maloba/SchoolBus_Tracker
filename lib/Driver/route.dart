@@ -14,7 +14,7 @@ class _DriverRouteState extends State<DriverRoute> {
 
   final LatLng _parentLocation = const LatLng(-1.3107, 36.8250);
   final LatLng _driverLocation = const LatLng(-1.1532, 36.9629);
-  final String googleApiKey = 'AIzaSyB5fMSyxV9eF6OpB5k2xILMAJyG-Desags';
+  final String googleApiKey = 'API_KEY';
 
   List<LatLng> polylineCoordinates = [];
   LocationData? currentLocation;
