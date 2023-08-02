@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:schoolbus_app/Screen/parentHome.dart';
+import 'package:schoolbus_app/parentPage/parentHome.dart';
 import 'package:schoolbus_app/Screen/signUp.dart';
 
 import '../authenticate/forgot_password.dart';
@@ -59,10 +59,6 @@ class _ParentLoginState extends State<ParentLogin> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepPurple[200],
-      appBar: AppBar(
-        backgroundColor: Colors.deepPurple[400],
-        title: const Text('Parent Log in'),
-      ),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(

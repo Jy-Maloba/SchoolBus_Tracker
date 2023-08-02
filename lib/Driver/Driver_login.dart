@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:schoolbus_app/Screen/driverHome.dart';
+import 'package:schoolbus_app/Driver/driverHome.dart';
 
 import '../Screen/signUp.dart';
 import '../authenticate/forgot_password.dart';
@@ -61,10 +61,6 @@ class _DriverLoginState extends State<DriverLogin> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.deepPurple[200],
-      appBar: AppBar(
-        backgroundColor: Colors.deepPurple[400],
-        title: const Text(' Driver Login'),
-      ),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(

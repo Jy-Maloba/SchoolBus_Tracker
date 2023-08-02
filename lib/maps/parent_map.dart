@@ -57,7 +57,7 @@ class _ParentMapsPageState extends State<ParentMapsPage> {
   CollectionReference collection = FirebaseFirestore.instance.collection('parent');
 
   Future _saveLocationToFirestore(longitude, latitude) async{
-    await FirebaseFirestore.instance.collection('parent').doc('locationID').update(
+    await FirebaseFirestore.instance.collection('parentLocation').doc('locationID').update(
         {
           // Save _parentLocation.latitude and _parentLocation.longitude to Firestore
           'longitude': _parentLocation.longitude,

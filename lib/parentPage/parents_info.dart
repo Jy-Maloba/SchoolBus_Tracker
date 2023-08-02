@@ -1,5 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:schoolbus_app/parentPage/parent_login.dart';
+import 'package:schoolbus_app/Screen/select_user.dart';
+// import 'package:schoolbus_app/parentPage/parent_login.dart';
 
 class ParentInfo extends StatefulWidget {
   const ParentInfo({Key? key}) : super(key: key);
@@ -284,7 +286,8 @@ class _ParentInfoState extends State<ParentInfo> {
                 leading: const Icon(Icons.logout),
                 title: const Text('Logout'),
                 onTap: (){
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>const ParentLogin()));
+                  FirebaseAuth.instance.signOut();
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=>const SelectUser()));
                 },
               ),
             ),

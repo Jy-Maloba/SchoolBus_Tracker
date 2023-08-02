@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:schoolbus_app/Driver/Driver_login.dart';
 import 'package:schoolbus_app/Driver/bus_info.dart';
 import 'package:schoolbus_app/Driver/route.dart';
-import '../Driver/driver_messages.dart';
-import '../Driver/driver_notifications.dart';
-import '../Driver/driver_profile.dart';
-import '../Driver/driver_settings.dart';
-import '../Driver/students_attendance.dart';
+import 'driver_messages.dart';
+import 'driver_notifications.dart';
+import 'driver_profile.dart';
+import 'driver_settings.dart';
+import 'students_attendance.dart';
 import '../components/list_tile.dart';
 import '../maps/driver_map.dart';
 

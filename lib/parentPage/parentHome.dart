@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:schoolbus_app/Screen/select_user.dart';
 import 'package:schoolbus_app/Screen/studentInfoUpdate.dart';
 import 'package:schoolbus_app/components/list_tile.dart';
 import 'package:schoolbus_app/maps/parent_map.dart';
@@ -7,7 +9,7 @@ import 'package:schoolbus_app/parentPage/p_messages.dart';
 import 'package:schoolbus_app/parentPage/p_notifications.dart';
 import 'package:schoolbus_app/parentPage/p_settings.dart';
 
-import '../parentPage/parent_login.dart';
+// import 'parent_login.dart';
 
 class ParentHomePage extends StatefulWidget {
   const ParentHomePage({Key? key}) : super(key: key);
@@ -36,7 +38,9 @@ class _ParentHomePageState extends State<ParentHomePage> {
 
           IconButton(
             onPressed: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>const ParentLogin()));
+              print('sent to user selection');
+              FirebaseAuth.instance.signOut();
+              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>const SelectUser()));
             },
             icon: const Icon(Icons.logout, color: Colors.white,),
           ),
@@ -144,16 +148,9 @@ class _ParentHomePageState extends State<ParentHomePage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                       padding: const EdgeInsets.symmetric(vertical: 7),
-                      child: TextButton(
-                        onPressed: (){
-                          Navigator.of(context).push(
-                              MaterialPageRoute(builder: (context)=> const ParentProfile())
-                          );
-                        },
-                        child: const Icon(
-                            Icons.person, color: Colors.white,
-                          ),
-                      ),
+                      child: const Icon(
+                          Icons.person, color: Colors.white,
+                        ),
                     ),
 
                   ],
